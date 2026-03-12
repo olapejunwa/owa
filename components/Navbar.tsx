@@ -31,7 +31,7 @@ const Navbar = () => {
 				<Link href="/">
 					<Image
 						alt="OWA Logo"
-						src="/images/logo.png"
+						src="/images/optimized/logo.webp"
 						width={62}
 						height={62}
 						className="h-auto hidden md:block w-auto"
@@ -39,7 +39,7 @@ const Navbar = () => {
 					/>
 					<Image
 						alt="OWA Logo"
-						src="/images/logo.png"
+						src="/images/optimized/logo.webp"
 						width={50}
 						height={50}
 						className="h-auto block md:hidden w-auto"

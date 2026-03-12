@@ -21,7 +21,7 @@ const SectionTwo = () => {
 				{/* Image with annotations */}
 				<div className="relative w-full max-w-sm mx-auto h-[300px] rounded-xl">
 					<Image
-						src="/images/4.png"
+						src="/images/optimized/6.webp"
 						alt="OWA Market Support"
 						fill
 						className="object-cover rounded-xl"

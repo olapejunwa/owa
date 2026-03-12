@@ -99,7 +99,7 @@ const Landing = () => {
 			<div className="relative z-10 w-[966px] h-[318px] flex flex-row gap-[12px] justify-center items-center">
 				<div className="relative hidden md:block w-[314px] h-[318px] rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/1.png"
+						src="/images/optimized/1.webp"
 						alt="Landing Image 1"
 						fill
 						className="object-cover"
@@ -107,7 +107,7 @@ const Landing = () => {
 				</div>
 				<div className="relative w-[355px] h-[192px] md:w-[314px] md:h-[318px] mt-8 md:mt-0 rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/2.png"
+						src="/images/optimized/2.webp"
 						alt="Landing Image 1"
 						fill
 						className="object-cover"
@@ -115,7 +115,7 @@ const Landing = () => {
 				</div>
 				<div className="relative hidden md:block w-[314px] h-[318px] rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/3.png"
+						src="/images/optimized/10.webp"
 						alt="Landing Image 1"
 						fill
 						className="object-cover"

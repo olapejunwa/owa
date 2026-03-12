@@ -11,7 +11,7 @@ const BecomeAgent = () => {
 					{/* Image */}
 					<div className="w-full max-w-[358px] border-[2px] border-[#4D2A73] h-[305px] rounded-xl overflow-hidden relative">
 						<Image
-							src="/images/6.png"
+							src="/images/optimized/12.webp"
 							alt="Agent"
 							fill
 							className="object-cover rounded-xl"

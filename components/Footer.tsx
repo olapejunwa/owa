@@ -14,7 +14,7 @@ const Footer = () => {
 				{/* Logo */}
 				<div className="flex-shrink-0">
 					<Image
-						src="/images/logo.png" // replace with your logo path
+						src="/images/optimized/logo.webp" // replace with your logo path
 						alt="OWA Logo"
 						width={100}
 						height={40}
@@ -117,7 +117,7 @@ const Footer = () => {
 			{/* Bottom right watermark text */}
 			<div className="absolute -bottom-2 -right-2 opacity-5 hidden md:block select-none pr-6">
 				<Image
-					src="/images/logo.png" // replace with your logo path
+					src="/images/optimized/logo.webp" // replace with your logo path
 					alt="OWA Logo"
 					width={250}
 					height={40}

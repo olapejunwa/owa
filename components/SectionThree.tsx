@@ -11,7 +11,7 @@ const SectionThree = () => {
 					{/* Image */}
 					<div className="w-full max-w-[358px] border-[2px] border-[#fff] h-[305px] rounded-xl overflow-hidden relative">
 						<Image
-							src="/images/5.jpg"
+							src="/images/optimized/4.webp"
 							alt="Market Visit"
 							fill
 							className="object-cover rounded-xl"
