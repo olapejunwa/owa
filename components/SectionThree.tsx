@@ -4,10 +4,10 @@ import React from "react";
 
 const SectionThree = () => {
 	return (
-		<section className="md:w-[1240px] mx-auto px-4 pt-0 pb-12 md:px-0 space-y-12">
+		<section className="w-full max-w-[1240px] mx-auto px-4 pt-0 pb-12 md:px-0 space-y-12">
 			{/* How It Works */}
 			<div className="bg-[#4D2A73] md:justify-between text-white rounded-[24px] pt-8 px-4 pb-40 md:p-16 flex flex-col md:flex-row gap-8 items-center relative">
-				<div className="md:w-[988px] flex md:flex-row flex-col-reverse justify-between gap-10 md:gap-0 ">
+				<div className="w-full max-w-[988px] flex md:flex-row flex-col-reverse justify-between gap-10 md:gap-0 ">
 					{/* Image */}
 					<div className="w-full max-w-[358px] border-[2px] border-[#fff] h-[305px] rounded-xl overflow-hidden relative">
 						<Image

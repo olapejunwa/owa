@@ -4,10 +4,10 @@ import React from "react";
 
 const BecomeAgent = () => {
 	return (
-		<section className="md:w-[1240px] mx-auto px-4 py-2 md:px-0 space-y-12">
+		<section className="w-full max-w-[1240px] mx-auto px-4 py-2 md:px-0 space-y-12">
 			{/* How It Works */}
 			<div className="bg-[#FFF8F0] md:justify-between text-[#4D2A73] rounded-[24px] px-4 py-8 md:p-16 flex flex-col md:flex-row gap-8 items-center relative">
-				<div className="md:w-[988px] flex md:flex-row flex-col-reverse md:items-center justify-between gap-12 ">
+				<div className="w-full max-w-[988px] flex md:flex-row flex-col-reverse md:items-center justify-between gap-12 ">
 					{/* Image */}
 					<div className="w-full max-w-[358px] border-[2px] border-[#4D2A73] h-[305px] rounded-xl overflow-hidden relative">
 						<Image

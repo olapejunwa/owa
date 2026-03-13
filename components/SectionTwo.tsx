@@ -6,8 +6,8 @@ const SectionTwo = () => {
 	return (
 		<section className="w-full mx-auto py-12 px-5 md:px-20">
 			{/* Top Section */}
-			<div className="bg-[#EDEAF1] w-full md:w-[1240px] overflow-hidden mx-auto rounded-[24px] px-6 pt-6 pb-40 md:p-12 md:pl-34 md:py-16 flex flex-col lg:flex-row justify-between items-start md:items-center gap-8 relative">
-				<div className="md:w-[457px] space-y-[20px]">
+			<div className="bg-[#EDEAF1] w-full max-w-[1240px] overflow-hidden mx-auto rounded-[24px] px-6 pt-6 pb-40 md:p-12 md:pl-34 md:py-16 flex flex-col lg:flex-row justify-between items-start md:items-center gap-8 relative">
+				<div className="w-full md:w-[457px] space-y-[20px]">
 					<h2 className="text-[#4D2A73] leading-[28px] md:leading-[40px] text-[24px] font-[600] md:text-[40px] md:font-[700]">
 						OWA is created to help your business
 					</h2>
@@ -132,7 +132,7 @@ const SectionTwo = () => {
 			{/* Bottom Section */}
 			<div className="mt-10 flex flex-col md:flex-row justify-center gap-6">
 				{/* Left Box */}
-				<div className="bg-[#F3F6FC] overflow-hidden flex flex-col justify-center pr-8 pl-4 pt-8 pb-20 md:pl-28 md:py-8 md:w-[606px] h-[466px] rounded-[24px] space-y-6 relative">
+				<div className="bg-[#F3F6FC] overflow-hidden flex flex-col justify-center pr-8 pl-4 pt-8 pb-20 md:pl-28 md:py-8 w-full max-w-[606px] h-[466px] rounded-[24px] space-y-6 relative">
 					<div className="flex items-start gap-4">
 						<div className="border border-[#C6CAD0] rounded-[8px] p-2">
 							<svg
@@ -231,7 +231,7 @@ const SectionTwo = () => {
 				</div>
 
 				{/* Right Box */}
-				<div className="bg-[#FFFEEF] overflow-hidden flex flex-col justify-center pr-8 pl-4 md:pl-28 pt-8 pb-20 md:w-[606px] h-[466px] rounded-[24px] space-y-6 relative">
+				<div className="bg-[#FFFEEF] overflow-hidden flex flex-col justify-center pr-8 pl-4 md:pl-28 pt-8 pb-20 w-full max-w-[606px] h-[466px] rounded-[24px] space-y-6 relative">
 					<div className="flex items-start gap-4">
 						<div className="border border-[#C6CAD0] rounded-[8px] p-2">
 							<svg

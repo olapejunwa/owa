@@ -64,7 +64,7 @@ const Landing = () => {
 					</g>
 				</svg>
 			</div>
-			<div className="w-full md:w-[807px] px-4 md:px-0 z-20 md:h-[451px] pt-36 md:mt-20 md:mb-10 flex flex-col justify-center items-center gap-[8px]">
+			<div className="w-full max-w-[807px] px-4 md:px-0 z-20 md:h-[451px] pt-36 md:mt-20 md:mb-10 flex flex-col justify-center items-center gap-[8px]">
 				<h1 className="text-[#4D2A73] font-[600] md:font-[700] text-[24px] md:text-[56px] leading-[28px] md:leading-[64px] text-left md:text-center">
 					Smart Bookkeeping for Every Market Woman
 				</h1>
@@ -96,10 +96,10 @@ const Landing = () => {
 					/>
 				</svg>
 			</div>
-			<div className="relative z-10 w-[966px] h-[318px] flex flex-row gap-[12px] justify-center items-center">
+			<div className="relative z-10 w-full max-w-[966px] h-auto md:h-[318px] flex flex-row gap-[12px] justify-center items-center px-4 md:px-0">
 				<div className="relative hidden md:block w-[314px] h-[318px] rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/optimized/1.webp"
+						src="/images/11.jpg"
 						alt="Landing Image 1"
 						fill
 						className="object-cover"
@@ -107,16 +107,16 @@ const Landing = () => {
 				</div>
 				<div className="relative w-[355px] h-[192px] md:w-[314px] md:h-[318px] mt-8 md:mt-0 rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/optimized/2.webp"
-						alt="Landing Image 1"
+						src="/images/8.jpg"
+						alt="Landing Image 2"
 						fill
 						className="object-cover"
 					/>
 				</div>
 				<div className="relative hidden md:block w-[314px] h-[318px] rounded-t-[12px] border border-[#E3DCEC] bg-white overflow-hidden">
 					<Image
-						src="/images/optimized/10.webp"
-						alt="Landing Image 1"
+						src="/images/13.jpeg"
+						alt="Landing Image 3"
 						fill
 						className="object-cover"
 					/>
