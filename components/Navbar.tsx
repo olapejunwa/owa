@@ -10,21 +10,20 @@ const Navbar = () => {
 	const [scrolled, setScrolled] = useState(false);
 
 	useEffect(() => {
-			const handleScroll = () => {
-				setScrolled(window.scrollY > 5);
-			};
-			window.addEventListener('scroll', handleScroll);
-			return () =>
-				window.removeEventListener('scroll', handleScroll);
-		}, []);
+		const handleScroll = () => {
+			setScrolled(window.scrollY > 5);
+		};
+		window.addEventListener('scroll', handleScroll);
+		return () =>
+			window.removeEventListener('scroll', handleScroll);
+	}, []);
 
 	return (
 		<header
-			className={`fixed top-0 left-0 w-full border-b border-[#E3DCEC] z-100 ${
-				scrolled
+			className={`fixed top-0 left-0 w-full border-b border-[#E3DCEC] z-100 ${scrolled
 					? 'bg-[#f4f2f7]/60 backdrop-blur-lg'
 					: 'bg-[#f4f2f7]'
-			}`}
+				}`}
 		>
 			<nav className="max-w-[1240px] mx-auto flex justify-between items-center h-[80px] px-4 md:px-0">
 				{/* Logo */}
@@ -49,7 +48,7 @@ const Navbar = () => {
 
 				{/* Desktop Nav */}
 				<div className="hidden md:flex space-x-4">
-					<Link href="/agent">
+					<Link target='_blank' href="https://app.owabypepcode.com.ng/signup">
 						<button className="px-4 py-2 text-sm border border-[#4D2A73] text-[#4D2A73] bg-white rounded hover:bg-[#4D2A73] hover:text-white transition">
 							Become an Agent
 						</button>
@@ -87,9 +86,8 @@ const Navbar = () => {
 
 			{/* Slide-out Mobile Menu */}
 			<div
-				className={`fixed top-0 right-0 h-[100vh] w-64 z-100 overflow-y-auto bg-white p-6 transition-transform duration-300 ease-in-out shadow-xl ${
-					isOpen ? 'translate-x-0' : 'translate-x-full'
-				}`}
+				className={`fixed top-0 right-0 h-[100vh] w-64 z-100 overflow-y-auto bg-white p-6 transition-transform duration-300 ease-in-out shadow-xl ${isOpen ? 'translate-x-0' : 'translate-x-full'
+					}`}
 			>
 				<div className="flex justify-between items-center mb-6">
 					<span className="text-lg font-bold"></span>

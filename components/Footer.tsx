@@ -57,7 +57,7 @@ const Footer = () => {
 									support@pepcode.com
 								</a>
 							</li>
-							<li>8 Rock Drive, Lekki Phase One, Lagos</li>
+							<li>Suite 5, Mojisola Mall, Ibeshe, Ikorodu, Lagos</li>
 							<li>+234 816 348 9375</li>
 						</ul>
 					</div>
@@ -104,7 +104,7 @@ const Footer = () => {
 
 			{/* Copyright */}
 			<div className="text-[14px] text-center mt-10 text-[#48505E]">
-				© 2025 OWA by Pepcode Inc. All Rights Reserved.{' '}
+				© {new Date().getFullYear()} OWA by Pepcode Inc. All Rights Reserved.{' '}
 				<a
 					href="https://www.ploutospage.com/"
 					className="underline text-[#4D2A73]"
