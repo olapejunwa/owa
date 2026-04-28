@@ -41,7 +41,8 @@ const BecomeAgent = () => {
 							</p>
 						</div>
 						<a
-							href="/agent"
+							target='_blank'
+							href="https://app.owabypepcode.com.ng/signup"
 							className="py-[10px] px-[16px] md:w-[250px] w-full text-center text-[14px] border-[1px] border-[#4D2A73] text-[#4D2A73] cursor-pointer font-[500] rounded-[4px] transition"
 						>
 							Become an OWA agent today

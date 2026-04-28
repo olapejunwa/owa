@@ -5,6 +5,7 @@ import {
 	FaInstagram,
 	FaFacebook,
 	FaTwitter,
+	FaLinkedin,
 } from 'react-icons/fa';
 import { submitContactForm } from '../actions';
 
@@ -126,6 +127,14 @@ export default function ContactUs() {
 								className="text-gray-700 hover:text-purple-800"
 							>
 								<FaFacebook size={24} />
+							</a>
+							<a
+								href="https://www.linkedin.com/company/owa-by-pepcode/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-gray-700 hover:text-purple-800"
+							>
+								<FaLinkedin size={24} />
 							</a>
 						</p>
 					</div>
